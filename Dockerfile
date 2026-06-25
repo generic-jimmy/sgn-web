@@ -17,6 +17,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         git \
         libcapstone-dev \
         python3 \
+        time \
     && rm -rf /var/lib/apt/lists/*
 
 # Clone & build keystone as a fully static library
